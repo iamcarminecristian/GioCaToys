@@ -1,0 +1,122 @@
+.hDiv{
+	text-align: center;
+	font-size: 400%;
+	font-family: sans-serif;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: #2d9bff;
+	font-style: italic;
+}
+.category{
+	font-size: 170%;
+	font-family: sans-serif;
+	padding-top: 1%;
+	padding-left: 1%;
+	text-align: left;
+	display:inline-block;
+	width: calc(48% - 2px);
+	height:180px;
+	margin: 1%;
+	filter: contrast(70%);
+	-webkit-filter: contrast(70%);
+}
+.category:hover{
+	filter: contrast(130%);
+	-webkit-filter: contrast(130%);
+}
+.imgCat{
+	float: right;
+	width: 17%;
+}
+.catLink{
+	text-decoration: none;
+	color: black;
+}
+#gSport{
+	background-color: #62b849;
+	border: 1px solid #62b849;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+#gTech{
+	background-color: #f37145;
+	border: 1px solid #f37145;
+ 	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+#gCostr{
+	background-color: #fec800;
+	border: 1px solid #fec800;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+#gVeic{
+	background-color: #00c37f;
+	border: 1px solid #00c37f;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+#gPeluche{
+	background-color: #e1b548;
+	border: 1px solid #e1b548;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+#gPers{
+	background-color: #a1d8e1;
+	border: 1px solid #a1d8e1;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+@media screen and (max-width: 1400px){
+	.category{
+		font-size: 150%;
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 1250px){
+	.category{
+		font-size: 120%;
+		height: 120px;
+	}
+}
+@media screen and (max-width: 850px){
+	.category{
+		font-size: 100%;
+		height: 80px;
+	}
+	.hDiv{
+		font-size: 230%;
+	}
+}
+@media screen and (max-width: 650px){
+	.category{
+		width: 97%;
+		font-size: 120%;
+		height: 115px;
+	}
+	.hDiv{
+		font-size: 180%;
+	}
+}
+@media screen and (max-width: 450px){
+	.imgCat{
+		width: 25%;
+	}
+	.hDiv{
+		font-size: 110%;
+	}
+}

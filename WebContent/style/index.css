@@ -1,0 +1,369 @@
+
+/* Slideshow container */
+.slideshow-container {
+	padding: 5px;
+	width: 70%;
+	position: relative;
+	align-content: left;
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+ 	display: inline-block;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+.slide{
+	width: 100%;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+	-webkit-border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade{
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+@keyframes fade{
+  from {opacity: .2}
+  to {opacity: 1}
+}
+.div-mobil{
+	cursor: pointer;
+	width: 100%;
+	display: none;
+	text-align: center;
+	background-image: url("../img/source.png");
+	background-size: cover;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border: 1px solid lightblue;
+
+}
+.div-mobil p {
+	color: white;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 10px;
+}
+.div-source{
+	background-image: url("../img/source.png");
+	background-size: 100% 100%;
+	width: 30%;
+	height: 612px;
+	float: right;
+	text-align: center;
+	padding: 20px;
+	border: 0;
+	display: inline-block;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border: 1px solid lightblue;
+}
+.div-source p {
+	color: white;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15px;
+}
+.div-source hr{
+	width: 80%;
+	color: lightblue;
+}
+.slider{
+	margin-top: 55px;
+}
+.age-source{
+	margin-top: 50px;
+}
+.category-div{
+	margin-top: 50px;
+}
+
+.botton-source{
+	margin-top: 60px;
+	background: #ff2700;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border: 1px solid lightblue;
+}
+.botton-source:hover{
+	background: red;
+}
+button {
+	border: none;
+	cursor: pointer;
+}
+.age-source, .category-source {
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%;
+	color: #fff;
+	background-color: #ff2700;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding-left: 15px;
+	opacity: 0.7;
+	-webkit-appearance: none;
+	-moz-user-select: none;
+	-moz-appearance: none;
+	outline: none;
+}
+.age-source:hover, .category-source:hover{
+	opacity: 1;
+	background-color: red;
+}
+.shProd{
+	width: 70%;
+	float: left;
+}
+.shProd h2{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 300%;
+	font-weight: bold;
+	font-style: italic;
+	color: #2d9bff;
+}
+.indLink{
+	margin-top: 1%;
+	width: 30%;
+	float: right;
+}
+.indLink div{
+	height: 250px;
+	 border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	color: #2d9bff;
+	font-size: 200%;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant:small-caps;
+	padding-top: 20%;
+}
+.indLink a{
+	text-decoration: none;
+}
+.linkProd{
+	background-color: #aaff80;
+	border: 1px solid #aaff80;
+}
+.linkCat{
+	margin-top: 1%;
+	background-color: #ffff80;
+	border: 1px solid #ffff80;
+	col
+}
+.spanProd{
+	top: 0;
+	height: 600px;
+	font-family: sans-serif;
+	display: inline-block;
+	width: 33.3%;
+	text-align: center;
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	float:left;
+}
+.spanProd2 span{
+	font-weight: bold;
+	font-size: 17px;
+}
+.spanProd2{
+	color: black;
+	float:left;
+	font-family: sans-serif;
+	display: inline-block;
+	text-align: center;
+}
+.imgProd{
+	margin-top: 3%;
+	width: 70%;
+	height: 70%;
+}
+.prodButton{
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	background-color: white;
+	padding: 2%;
+	margin-bottom: 3%;
+}
+.prodButton:hover{
+	 background-color: #ff2700;
+	 color: white;
+}
+.spanProd:hover{
+	background-color: lightblue;
+}
+/*
+@media screen and (max-width: 1250px){
+	.div-source p {
+		font-size: 10px;
+	}
+	.resource p{
+		font-size: 8px;
+	}
+}
+*/
+@media screen and (max-width: 850px){
+	.slideshow-container{
+		width: 100%;
+	}
+	.div-source{
+		width: 100%;
+		height: 400px;
+	}
+	.slider{
+		margin-top: 40px;
+	}
+	.age-source{
+		margin-top: 30px;
+	}
+	.category-div{
+		margin-top: 30px;
+	}
+
+	.botton-source{
+		margin-top: 40px;
+	}
+	.indLink{
+		width: 100%;
+		float: left;
+	}
+	.indLink div{
+		padding-top: 10%;
+		width: 48%;
+		float: left;
+		margin-top: 0;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.shProd{
+		width: 100%;
+		float: center;
+	}
+	.linkCat{
+		margin-top: 0;
+		margin-left: 1%;
+	}
+}
+@media screen and (max-width: 1250px){
+	.spanProd{
+		height: 500px;
+	}
+}
+@media screen and (max-width: 850px){
+	.spanProd{
+		height: 420px;
+	}
+}
+@media screen and (max-width: 650px){
+	.div-mobil{
+		display: block;
+	}
+	.div-source{
+		display: none;
+		width: 100%;
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 0.5s;
+		animation-name: fade;
+		animation-duration: 0.5s;
+	}
+	.spanProd{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 2%;
+	}
+	.imgProd{
+		width: 25%;
+		height: 40%;
+	}
+	.shProd h2{
+		font-size: 200%;
+	}
+	.indLink div{
+		font-size: 150%;
+	}
+}
+@media screen and (max-width: 450px){
+	.spanProd{
+		height: 370px;
+	}
+}

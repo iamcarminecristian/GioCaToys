@@ -1,0 +1,231 @@
+<head>
+	<meta charset="UTF-8">
+</head>
+<ul>
+	<li><a href="whoare.html">Chi siamo</a>  |</li>
+	<li><a href="shipping.html">Spedizioni</a>  |</li> 
+	<li><a href="payments.html">Pagamenti</a>  |</li>
+	<li><a href="assistence.html">Assistenza Clienti</a></li>
+</ul>
+<div class="footer-sx-social">
+	<div class="foot-sx-elem">
+		<span>Seguici su:</span>
+		<a href="https://www.facebook.com" target="_blank">
+			<img src="img\facebook.png">
+		</a>
+		<a href="https://instagram.com" target="_blank">
+			<img src="img\instagram.png">
+		</a>
+		<a href="https://twitter.com" target="_blank">
+			<img src="img\twitter.png">
+		</a>
+		<a href="https://youtube.com" target="_blank">
+			<img src="img\youtube.png">
+		</a>
+		</div>
+</div>
+<div class="footer-dx-pagamenti">
+	<span>Pagamenti:</span>
+	<img src="img\pagamenti2.png">
+</div>
+<hr>
+<div class="footer-south-srl">
+	<span>© 2016-2018 GioCa-Toys è un marchio registrato di Gio.Ca s.r.l. P.IVA e C.F. 06003534825 - REA PA2923599 - Cap.Soc. € 25.000.000 i.v. - Tutti i diritti riservati, vietata la riproduzione anche parziale.</span>
+</div>
+
+<style>
+
+footer{
+	width: 100%;
+	float:left;
+	bottom: 0;
+	margin-top: 8px;
+	height: 200px;
+	background-color: lightblue;
+	border: 1px solid lightblue;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+}
+footer hr{
+  margin-left: 2.5%;
+  float: left;
+  width: 95%;
+}
+footer ul{
+  text-align: center;
+  margin-top: 2%;
+}
+footer ul li{
+  display: inline;
+  height: 15%;
+}
+footer ul li a{
+  opacity: 0.7;
+}
+footer ul li a:hover{
+  opacity: 1.0;
+}
+.footer-sx-social, .footer-dx-pagamenti{
+  display: inline;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+.footer-sx-social{
+  width: 40%;
+  float: left;
+}
+.foot-sx-elem{
+  float: right;
+}
+.footer-sx-social img{
+  width: 30px;
+  height: 30px;
+}
+.footer-dx-pagamenti{
+  width: 48%;
+  float: right;
+}
+.footer-dx-pagamenti a{
+  float: left;
+}
+.footer-dx-pagamenti img{
+  height: 25px;
+}
+.footer-south-srl{
+  bottom: 0;
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 90%;
+}
+/*QUESTO E' QUELLO RELATIVO ALLA TUA RISOLUZIONE
+@media screen and (min-width: 1400px){
+  .footer-sx-social img{
+    width: 35px;
+    height: 35px;
+  }
+  .footer-dx-pagamenti img{
+    height: 40px;
+  }
+  .footer-south-srl{
+    font-size: 90%;
+  }
+}*/
+@media screen and (max-width: 1400px){
+  footer{
+	height: 150px;
+  }
+  .footer-sx-social img{
+    width: 20px;
+    height: 20px;
+  }
+  .footer-dx-pagamenti img{
+    height: 20px;
+  }
+  .footer-sx-social, .footer-dx-pagamenti{
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  footer ul{
+    margin-top: 1%;
+  }
+  .footer-south-srl{
+    font-size: 78%;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  footer{
+	height: 100px;
+  }
+  footer ul{
+  	font-size: 70%;
+  }
+  .footer-sx-social{
+  	font-size: 40%;
+  }
+  .footer-sx-social img{
+    width: 17px;
+    height: 17px;
+  }
+  .footer-dx-pagamenti img{
+    height: 20px;
+  }
+  .footer-sx-social, .footer-dx-pagamenti{
+  	font-size: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  footer ul{
+    margin-top: 1%;
+  }
+  .footer-south-srl{
+    font-size: 65%;
+  }
+}
+@media screen and (max-width: 1000px){
+  .footer-south-srl{
+    font-size: 53%;
+  }	
+}
+@media screen and (max-width: 850px){
+  footer{
+	height: 80px;
+  }
+  .footer-sx-social img{
+    width: 20px;
+    height: 20px;
+  }
+  .footer-sx-social, .footer-dx-pagamenti{
+    margin-top: 1%;
+   /* margin-bottom: 1%;*/
+  }
+  .footer-dx-pagamenti{
+    width: 55%;
+  }
+  footer ul{
+    margin: 0;
+  }
+  .footer-dx-pagamenti img{
+    height: 20px;
+  }
+  .footer-south-srl{
+    font-size: 40%;
+  }
+}
+
+
+/*DEVI AGGIUSTARE SOLO QUESTA*/
+@media screen and (max-width: 550px){
+  footer ul{
+    padding-left: 0;
+    font-size: 65%;
+  }
+  footer ul li{
+    display: inline;
+  }
+  .footer-sx-social img{
+    width: 10px;
+    height: 10px;
+  }
+  .footer-sx-social span, .footer-dx-pagamenti span{
+    display: none;
+    }
+  .footer-sx-social, .footer-dx-pagamenti{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 10%;
+  }
+  .footer-dx-pagamenti img{
+    height: 10px;
+  }
+}
+
+</style>

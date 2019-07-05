@@ -1,0 +1,203 @@
+.hDiv{
+	text-align: center;
+	font-size: 350%;
+	font-family: sans-serif;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: #2d9bff;
+	font-style: italic;
+}
+.prod{
+	float:left;
+	width: 100%;
+	height: 100%;
+}
+.prodgest{
+	margin-top: 2%;
+}
+.spanProd{
+	top: 0;
+	height: 600px;
+	font-family: sans-serif;
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	float:left;
+}
+.spanProd2 span{
+	font-weight: bold;
+	font-size: 17px;
+}
+.spanProd2{
+	float:left;
+	font-family: sans-serif;
+	display: inline-block;
+	text-align: center;
+}
+.imgProd{
+	margin-top: 3%;
+	width: 70%;
+	height: 70%;
+}
+.prodButton{
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	background-color: white;
+	padding: 2%;
+	margin-bottom: 3%;
+}
+.prodButton:hover{
+	 background-color: #ff2700;
+	 color: white;
+}
+.spanProd:hover{
+	background-color: lightblue;
+}
+
+.pLink{
+	decoration:none;
+	color: black;
+}
+form button {
+	width: 120px;
+	height: 30px;
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+form button:hover{
+	background-color: #ff2700;
+	color:white;
+}
+.accept:hover{
+	background-color: green;
+	color:white;
+}
+h2{
+	font-weight: normal;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-variant: small-caps;
+}
+.addP{
+	margin-left: 40%;
+	align-content: center;
+	
+}
+.addP input, textarea, select{
+  display: block;
+  height: 35px;
+  width: 30%;
+  margin-bottom: 1%;
+  border: none;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  outline: none;
+  opacity: 0.8;
+  padding-left: 5px;
+}
+
+
+.spanPage{
+	float: left;
+	width:100%;
+	text-align: center;
+	font-size: 200%;
+	margin: 10px;
+}
+.spanPage a{
+	padding: 5px;
+	outline:none;
+	color: black;
+	text-decoration:none;
+	border: 1px solid lightblue;
+	border-radius: 12px;
+  	-moz-border-radius: 12px;
+  	-webkit-border-radius: 12px;
+}
+
+#des{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+#modPr input{
+  display: block;
+  height: 35px;
+  margin-bottom: 1%;
+  border: none;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  outline: none;
+  opacity: 0.8;
+  padding-left: 5px;
+  	margin-left: auto;
+	margin-right: auto;
+}
+#modPr textarea, #modPr select{
+	margin-left: auto;
+	margin-right: auto;
+}
+#modPr button{
+	margin-bottom: 1%;
+}
+#modPr span{
+	font-weight: bold;
+	font-size: 120%;
+}
+#modPr{
+	text-align: center;
+}
+#modPr p{
+	display:block;
+}
+@media screen and (max-width: 1250px){
+	.spanProd{
+		height: 500px;
+	}
+}
+@media screen and (max-width: 850px){
+	.hDiv{
+		font-size: 230%;
+	}
+	.spanProd{
+		height: 420px;
+	}
+	.gestProd{
+		height: 500px;
+	}
+}
+@media screen and (max-width: 650px){
+	.hDiv{
+		font-size: 180%;
+	}
+	.spanProd{
+		width: 50%;
+	}
+	.addP{
+		margin-left: 25%;
+	}
+	.addP input, textarea, select{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 450px){
+	.hDiv{
+		font-size: 110%;
+	}
+	.spanProd{
+		height: 370px;
+	}
+	.gestProd{
+		width: 100%;
+		height: 600px;
+	}
+}

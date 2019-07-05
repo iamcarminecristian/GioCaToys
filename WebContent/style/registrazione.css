@@ -1,0 +1,112 @@
+main{
+  background-image: url("../img/registra.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+main h1{
+  font-family: sans-serif;
+  font-variant: small-caps;
+  text-align: center;
+}
+main hr{
+  width: 100%;
+  border: 1px solid lightblue;
+  margin-bottom: 2%;
+}
+.div-registation{
+  display: block;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  padding-left: 30%;
+  width: 100%;
+  height: 100%;
+}
+.inline-div{
+  width: 30%;
+  display: inline-block;
+}
+.div-registation input{
+  display: inline-block;
+  padding-left: 5%;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 7%;
+  border: none;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+  outline: none;
+  opacity: 0.8;
+}
+.div-registation input:hover{
+  border: 1px solid black;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+  opacity: 1.0;
+}
+.div-reg-button{
+  padding-left: 12%;
+  display: inline-block;
+  width: 100%;
+}
+.div-reg-button button{
+  border: 1px solid lightblue;
+  outline: none;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+  width: 20%;
+  height: 35px;
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.pPass{
+	display:none;
+	color: red;
+	font-size: 75%;
+}
+.div-reg-button button:hover{
+  background: red;
+  color: white;
+  opacity: 1;
+}
+#ok:hover{
+  background: green;
+}
+.div-reg-cred{
+  padding-left: 15%;
+  display: block;
+  width: 100%;
+}
+.div-reg-cred div{
+  width: 35%;
+  display: inline-block;
+}
+@media screen and (max-width: 480px){
+  main{
+    backgroud-size: cover;
+  }
+  .div-reg-button{
+    padding-left: 7%; 
+    width: 120%;
+  }
+  .div-registration, .div-reg-cred{
+    padding-left: 1%;
+  }
+  .div-reg-cred div{
+    width: 60%;
+  }
+	.inline-div{
+    width: 60%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 350px){
+   .div-reg-button{
+    padding-left: 4%; 
+    width: 130%;
+  }
+}

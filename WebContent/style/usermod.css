@@ -1,0 +1,47 @@
+main{
+	background-image: url("../img/nuvole.png");
+}
+.intenst{
+	margin-left: 15%;
+}
+h2{
+	font-family: sans-serif;
+	font-variant: small-caps;
+}
+.userD, .userInd, .userP{
+	font-style: italic;
+	margin-left: 16%;
+	background-color: lightblue;
+	margin-right: 16%;
+}
+.userD span, .userInd span, .userP span{
+	font-weight: bold;
+	font-style: normal;
+}
+button {
+	width: 90px;
+	height: 30px;
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+button:hover{
+	background-color: #ff2700;
+	color:white;
+}
+.accept:hover{
+	background-color: green;
+	color:white;
+}
+.userD input, .userInd input, .userP input{
+  height: 35px;
+  margin-bottom: 1%;
+  border: none;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  outline: none;
+  opacity: 0.8;
+  padding-left: 5px;
+}

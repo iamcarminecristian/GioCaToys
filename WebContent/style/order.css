@@ -1,0 +1,61 @@
+.backG{
+	background-image: url("../img/ordineEffettuato.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 350px;
+}
+.order{
+	text-align: center;
+}
+.order span, .spanOrdini span{
+	font-weight: bold;
+}
+.order h1{
+	font-family: sans-serif;
+	font-variant: small-caps;
+	color: green;
+	margin-top: 0;
+}
+
+.nic{
+	text-align: center;
+}
+.divOrdini{
+	width: 100%;
+}
+.spanOrdini{
+	width: 18.8%;
+	height: 500px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	background-color: white;
+	border: 1px solid lightblue;
+	float:left;
+}
+
+@media screen and (max-width: 1250px){
+	.spanOrdini{
+		width: 23.7%;
+	}
+}
+
+@media screen and (max-width: 850px){
+	.spanOrdini{
+		width: 31.9%;
+	}
+}
+
+@media screen and (max-width: 650px){
+	.spanOrdini{
+		width: 48.6%;
+	}
+}
+
+@media screen and (max-width: 650px){
+	.spanOrdini{
+		width: 98%;
+	}
+}

@@ -1,0 +1,103 @@
+.chefoss{
+	background-image: url("../img/carrelloVuoto.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.nic{
+	padding-top: 200px;
+	padding-bottom: 200px;
+	text-align: center;
+	background-color: white;
+	opacity: 0.7;
+    width: 100%;
+}
+.nic h2{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  margin-left: 25px;
+  font-weight: bold;
+}
+.nic p{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-variant: inherit;
+}
+.nic a{
+	text-decoration: none;
+}
+button {
+	width: 120px;
+	height: 30px;
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+button:hover{
+	background-color: #ff2700;
+	color:white;
+}
+.accept:hover{
+	background-color: green;
+	color:white;
+}
+
+.spanProd{
+	float:left;
+	width: 30%;
+	height: 400px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 3%;
+	border: 1px solid lightblue;
+	margin-left: 2%;
+	background-color: white;
+	padding-bottom: 2%;
+	padding-top: 1%;
+}
+.spanProd a{
+	outline:none;
+	text-decoration: none;
+	color:black;
+}
+.imgProd{
+	height: 25%;
+	width: 25%;
+}
+.spanProd span{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.tot{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-bottom: 2%;
+}
+.tot span{
+	font-weight: bold;
+	font-size: 20px;
+}
+.tot p{
+	margin-bottom: 0;
+}
+.tot button{
+	margin-top: 1%;
+}
+#rem{
+	color:#ff2700;
+	font-weight: bold;
+}
+#rem:hover{
+	color:red;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 650px){
+	.spanProd{
+		width: 47%;
+		height: 300px;
+	}
+}

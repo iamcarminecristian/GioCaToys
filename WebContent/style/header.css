@@ -1,0 +1,352 @@
+
+body{
+	background-image: url("../img/lego.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	float:left;
+	overflow-y: scroll;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0.2%;
+	left:0;
+	right:0;
+}
+
+
+main{
+	float:left;
+	width:100%;
+	top:0;
+	background-color: #e8f7f6;
+	border: 1px solid lightblue;
+  	border-radius: 12px;
+  	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	height: 100%; 
+}
+a, button{
+	outline:none;
+}
+
+img {vertical-align: middle;}
+
+* {box-sizing:border-box}
+button {
+	border: none;
+	cursor: pointer;
+}
+header{
+	float:left;
+	width: 100%;
+	font-family: sans-serif;
+	top: 0;
+	margin-top: 0px;
+	height: 200px;
+	background-color: lightblue;
+	border: 1px solid lightblue;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+header a{
+	text-decoration: none;
+	color: black;
+}
+.spanLogo{
+	width: 20%;
+	display: inline-block;
+	margin: 0.5%;
+	height: 90%;
+	width: height;
+}
+.spanLogo a{
+	outline: none;
+}
+.logo{
+	height: 100%;
+}
+.spanLogged{
+	padding-top: 2px;
+	float: right;
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid black;
+  	border-radius: 12px;
+  	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+  	background-color: #b4e3ff;
+}
+
+.spanLogin, .spanReg, .spanLogout, .spanCarrello, .spanGest{
+	margin-left: 2%;
+	cursor: pointer;
+	float: right;
+	width: 14%;
+	display: inline-block;
+	text-align: center;
+	height: 15%;
+	border: 1px solid black;
+  	border-radius: 12px;
+  	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+  	background-color: #b4e3ff;
+  	padding-top: 4px;
+}
+.error{
+	color:red;
+	font-size: 80%;
+	font-family: sans-serif;
+}
+.nCarr{
+	padding: 1px;
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+  	border-radius: 12px;
+  	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+.spanGest{
+	width: 20%;
+}
+.divGest{
+	width: 70%;
+	display: inline-block;
+	float:right;
+	height: 100%;
+}
+
+.aLog{
+	cursor: pointer;
+}
+.login{
+	width: 20%;
+	height: 90%;
+}
+.form{
+	cursor: default;
+	padding: 15px;
+	margin-top: 5px;
+	float: right;
+	display: none;
+	position: relative;
+	z-index: 3;
+	background-color: #b6faff;
+	border: 1px solid lightblue;
+  	border-radius: 12px;
+  	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+/*  	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;*/
+}
+.form input{
+  padding-left: 5px;
+  width: 150px;
+  height: 25px;
+  margin-bottom: 7%;
+  border: none;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+  outline: none;
+}
+.subLogin{
+	float: none;
+ 	margin-top: 3px;
+  	border: 1px solid lightblue;
+  	border-radius: 12px;
+  	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+  	padding: 8px;
+}
+.subLogin:hover{
+	background: #ccc;
+}
+nav{
+	float:left;
+	width: 100%;
+	top:0;
+	z-index: 2;
+	position: -webkit-sticky;
+	position: sticky;
+	margin-top: 1px;
+	margin-bottom: 8px;
+	height:42px;
+	background-color: white;
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+.collapsed{
+	display:none;
+}
+.navbar{
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 100%;
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+}
+.navbar li{
+  background-color: white;
+  display: block;
+  width: 20%;
+  height: 40px;
+  margin: 0px;
+  float: left;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+.navbar li a{
+  padding:3%;
+  display: block;
+  color:black;
+  height: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar li a:hover{
+	color: white;
+}
+.navbar li.active, .navbar li:hover {
+    background-color: #ff2700;
+}
+.ser{
+	width: 15%;
+	height: 35px;
+}
+.ser, .serButton {
+    float: right;
+    display: inline;
+    margin-top: 3px;
+	border: 1px solid lightblue;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+    padding: 8px;
+}
+.serButton {
+	outline: none;
+	width: 4%;
+	background: #ddd;
+	border: none;
+ 	cursor: pointer;
+  	margin-left: 3px;
+}
+.serButton:hover {
+  background: #ccc;
+}
+
+
+
+@media screen and (max-width: 1400px){
+	.navbar li a{
+		line-height: 30px;
+	}
+	.spanLogin, .spanReg, .spanLogout, .spanCarrello, .spanLogged, .spanGest{
+		height:20%;
+	}
+	header{
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 1250px){
+	.spanLogin, .spanReg, .spanLogout, .spanCarrello, .spanLogged, .spanGest{
+		height:25%;
+		font-size: 75%;
+	}
+	.spanGest{
+		width: 25%;
+	}
+	header{
+		height: 120px;
+	}
+}
+
+@media screen and (max-width: 850px){
+	header{
+		height: 80px;
+	}
+	.spanLogin, .spanReg, .spanLogout, .spanCarrello, .spanLogged{
+		font-size: 70%;
+		width: 32%;
+	}
+	.spanGest{
+		width: 30%;
+		font-size: 70%;
+	}
+	.navbar{
+		font-size: 75%;
+	}
+	.serButton{
+		padding: 6px;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 650px){
+	.spanLogin, .spanReg, .spanLogout, .spanCarrello, .spanLogged{
+		font-size: 55%;
+	}
+	.spanGest{
+		width: 42%;
+		font-size: 55%;
+	}
+	.navbar{
+		position: absolute;
+		float: left;
+		width: 50%;
+		font-size: 70%;
+		display:none;
+		margin-top: 40px;
+		background-color: lightblue;
+		border: 1px solid lightblue;
+    	border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+	}
+	.navbar li{
+		padding-top: 4%;
+		float: none;
+		width: 100%;
+		height: 50px;
+	}
+	.collapsed{
+		margin-top: 4px;
+		display:inline-block;
+		width: 20%;
+		height: 80%;
+    	border-radius: 12px;
+    	-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+    	float:left;
+    	 background: #ddd;
+	}
+	.collapsed:hover {
+ 		 background: #ccc;
+	}
+
+	.ser{
+		width: 35%;
+	}
+	.serButton{
+		margin-top: 5px;
+		width: 8%;
+	}
+}
+
+@media screen and (max-width: 450px){
+	.navbar{
+		width: 40%;
+	}
+	.spanGest{
+		width: 48%;
+	}
+}

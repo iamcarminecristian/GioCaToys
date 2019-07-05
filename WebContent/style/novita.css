@@ -1,0 +1,87 @@
+.spanProd{
+    width: 100%;
+    float: left;
+}
+h1{
+	color: #2d9bff;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 500%;
+	font-family: sans-serif;
+	font-style: italic;
+}
+.descP{
+	margin-top: 5%;
+}
+.pLink{
+	text-decoration: none;
+	color: black;
+	font-size: 150%;
+	font-family: sans-serif;
+}
+.pLink span{
+	font-weight: bold;
+}
+.descP, #addCarr{
+	text-align: center;
+}
+.prodButton{	
+	padding: 1%;
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+.prodButton:hover{
+	background-color: red;
+	color: white;
+}
+.imgProd{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 500px;
+}
+.anchor{
+	float:left;
+	width: 100%;
+	height: 1px;
+}
+
+@media screen and (max-width: 1250px){
+	.imgProd{
+		padding-top: 4%;
+		padding-bottom: 4%;
+		width: 400px;
+	}
+
+}
+@media screen and (max-width: 850px){
+	h1{
+		font-size: 400%;
+	}
+	.imgProd{
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 100%;
+	}
+	.descP{
+		width: 100%;
+	}
+	.prodButton{
+		margin-bottom: 3%;
+	}
+}
+@media screen and (max-width: 650px){
+	h1{
+		font-size: 300%;
+	}
+	.pLink{
+		font-size: 100%;
+	}
+}
+@media screen and (max-width: 450px){
+	h1{
+		font-size: 180%;
+	}	
+}

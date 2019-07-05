@@ -1,0 +1,47 @@
+main{
+	background-image: url("../img/nuvole.png");
+}
+h2{
+	font-family: sans-serif;
+	font-variant: small-caps;
+	margin-left: 20%;
+}
+.notOrder{
+	font-weight: normal;
+	font-size: 90%;
+	font-style: italic;
+}
+.userD, .userO, .userP{
+	margin-left: 17%;
+	background-color: lightblue;
+	margin-right: 17%;
+}
+.userD p, .userO p{
+	font-style: italic;
+}
+.userD span, .userO span{
+	font-weight: bold;
+	font-style: normal;
+}
+hr{
+	width: 45%;
+	margin-left: 20%;
+}
+.all{
+	background-color: white;
+}
+form{
+	margin-left: 20%;
+}
+button {
+	width: 120px;
+	height: 30px;
+	border: 1px solid lightblue;
+ 	border-radius: 12px;
+ 	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+button:hover{
+	background-color: green;
+	color:white;
+}
